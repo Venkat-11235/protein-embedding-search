@@ -14,6 +14,8 @@ The results of the mentioned experiments below could be found at `results/` dire
 
 ## Experimental Design
 
+Initialize the project structure with mkdir -p data embeddings model. Download the UniProt50 dataset, select the desired subset of proteins, and adjust the pipeline via constants defined in main.py and eval.py.
+
 The workflow is:
 
 1. Read protein sequences from FASTA or CSV.
