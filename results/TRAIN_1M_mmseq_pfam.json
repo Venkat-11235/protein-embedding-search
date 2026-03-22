@@ -1,0 +1,22 @@
+{
+  "method": "mmseqs",
+  "database_name": "TRAIN_1M",
+  "query_name": "eval_500",
+  "top_k": 5,
+  "observed_proteins": 444,
+  "queries_with_hits": 392,
+  "metrics": {
+    "top_1": {
+      "accuracy": 0.7342342342342343,
+      "precision": 0.4078689078689079,
+      "recall": 0.702343414843415,
+      "matched_proteins": 326
+    },
+    "top_5": {
+      "accuracy": 0.8603603603603603,
+      "precision": 0.2621554764792519,
+      "recall": 0.8361861861861862,
+      "matched_proteins": 382
+    }
+  }
+}

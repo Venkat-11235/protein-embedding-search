@@ -1,0 +1,7 @@
+data/
+embeddings/
+model/
+.data/
+.embeddings/
+.vscode/
+__pycache__/

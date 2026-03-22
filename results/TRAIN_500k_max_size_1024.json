@@ -1,0 +1,23 @@
+{
+  "database_name": "TRAIN_500k",
+  "query_name": "eval_500",
+  "model_name": "facebook/esm2_t6_8M_UR50D",
+  "max_size": 500,
+  "top_k": 5,
+  "pfam_batch_size": 50,
+  "observed_proteins": 474,
+  "metrics": {
+    "top_1": {
+      "accuracy": 0.3333333333333333,
+      "precision": 0.22434532181367622,
+      "recall": 0.27789330922242317,
+      "matched_proteins": 158
+    },
+    "top_5": {
+      "accuracy": 0.4388185654008439,
+      "precision": 0.12001097483105526,
+      "recall": 0.3769841269841271,
+      "matched_proteins": 208
+    }
+  }
+}
