@@ -1,5 +1,7 @@
 # FAISS-Based Protein Retrieval using LLM Embeddings Trained on UniRef50
 
+![Pipeline_Overview](./protein_vis.png)
+
 ## Summary
 
 This repository evaluates whether transformer-derived protein embeddings recover biologically meaningful neighbors in sequence space. Protein sequences are embedded with `facebook/esm2_t6_8M_UR50D`, indexed with FAISS, and evaluated by measuring whether retrieved proteins share at least one Pfam family with the query.
